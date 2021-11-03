@@ -14,6 +14,12 @@ public class Rectangle extends Shape{
     
     private int width;
     private int height;
+
+    public Rectangle() {
+        super(50, "RED");
+    }
+    
+    
     
     public void setHeight(int h)
     {
@@ -27,7 +33,7 @@ public class Rectangle extends Shape{
     
     public void setBrdrWidth(int b)
     {
-        
+     
     }
     
 }
